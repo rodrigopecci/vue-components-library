@@ -9,14 +9,18 @@
     "prebuild": "rm -rf dist/",
     "build": "vue-cli-service build --target lib --name vue-components-library src/main.js",
     "lint": "vue-cli-service lint",
+    "test": "jest --passWithNoTests",
+    "watch:test": "npm test -- --watch",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-unit-jest": "^4.5.4",
     "@vue/cli-service": "~4.5.0",
     "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/test-utils": "^1.0.5",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.1.3",
