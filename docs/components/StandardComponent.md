@@ -1,4 +1,4 @@
-# standard-component
+# StandardComponent
 
 This is the standard component.
 

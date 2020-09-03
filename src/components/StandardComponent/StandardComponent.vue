@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "standard-component"
+  name: "StandardComponent"
 };
 </script>
 

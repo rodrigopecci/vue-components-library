@@ -6,7 +6,7 @@
   "unpkg": "dist/vue-components-library.umd.min.js",
   "jsdelivr": "dist/vue-components-library.umd.min.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "prebuild": "rm -rf dist/",
     "build": "vue-cli-service build --target lib --name vue-components-library src/main.js",
     "lint": "vue-cli-service lint",
     "docs:dev": "vuepress dev docs",
