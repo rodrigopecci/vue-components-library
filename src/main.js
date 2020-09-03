@@ -7,6 +7,7 @@ const ComponentLibrary = {
       const component = components[componentName];
 
       Vue.component(component.name, component);
+      exports[component.name] = component;
     }
   }
 };

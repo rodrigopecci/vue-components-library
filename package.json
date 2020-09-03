@@ -2,6 +2,9 @@
   "name": "vue-components-library",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/vue-components-library.umd.min.js",
+  "unpkg": "dist/vue-components-library.umd.min.js",
+  "jsdelivr": "dist/vue-components-library.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vue-components-library src/main.js",
